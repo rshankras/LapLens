@@ -1,5 +1,22 @@
 .streamlit/secrets.toml
 
+# LapLens specific
+*.DS_Store
+.vscode/
+.idea/
+test_*.py
+temp/
+output/
+exports/
+data/gdp_data.csv
+
+# Streamlit cache
+.streamlit/cache/
+
+# Large data files (optional - comment out if you want to track datasets)
+# datasets/**/*.csv
+# datasets/**/*.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
